@@ -110,7 +110,8 @@ class Clonal_Selection():
 
 		affinities = self.evaluation(self.antibodies)
 		if CODE_VERBOSE:
-			print("END")		
+			print("END")
+		if DEBUG:
 			print("Final Antibody Population:\n", self.antibodies)
 			print("Final Score Population:\n", affinities)
 		
