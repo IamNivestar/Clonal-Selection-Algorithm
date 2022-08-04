@@ -372,8 +372,8 @@ if __name__ == "__main__":
 
 	CS = Clonal_Selection(N = 200, n = 100, d= 0.8, beta = 1, rho = 5, n_generations = 60, 
 		tournament_count= 10, selection1 = 'T', selection2 = 'R')
-	#CS.run()
-	calibrate() # only for calibrate
+	CS.run()
+	#calibrate() # only for calibrate
 
 	end = time.time() #user
 	user_time = end - start 
